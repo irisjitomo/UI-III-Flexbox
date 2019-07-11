@@ -130,86 +130,173 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-.container {
-	width: 900px;
-	margin: auto;
+
+header nav {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items:baseline;
+    margin-top:40px;
+    margin-bottom:40px;
 }
 
-header nav{
-	display: inline-block;
-	margin-top:35px;
+.img{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:40px 40px;
 }
 
-header .logo{
-	margin-left: 130px
+.services-middle{
+    display:flex;
+    justify-content:center;
 }
 
-header nav a{
-	margin: 0 20px;
-	color:gray;
+.services{
+    height:80%;
+    width:80%;
+    display:flex;
+    flex-wrap:wrap;
+    margin:40px 40px;
 }
-.cta h3{
-	text-align: center;
-	font-size:80px;
-	width: 60px;
-    height: 60px;
-    padding: 60px;
-    margin-top: 90px;
-    margin-left: 50px;
+
+.services h1 {
+    font-size:30px;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
 }
-.cta img{
-	margin-left: 500px;
-	margin-top: -345px;
-	margin-bottom: 105px;
+
+.services p{
+    display:flex;
+    flex-wrap:wrap;   
 }
-.cta button{
-	background:white;
-	border: 1px solid black;
-	height: 35px;
+
+.--{
+    display:flex;
+    justify-content:center;
+}
+
+.box-content h1{
+    font-size:20px
+}
+
+.box-content button{
+    background-color:white;
+    border: 1px solid black;
+    height: 35px;
     width: 150px;
     padding: 8px;
-    margin-top: 180px;
-    margin-left: 160px;
-}
-.top .content{
-	display: inline-block;
-	width: 45%;
-	margin:20px;
-}
-.content p{
-	margin: 2px;
-}
-.middle .middle-img{
-	text-align: inline block;
-	margin: 50px 60px 50px 10px;
-}
-.bottom .content{
-	display: inline-block;
-	width: 30%;
-	margin-left:20px;
-}
-.underline h3 {
-	margin-left: 50px;
-}
-.contact{
-	display: inline-block;
-	margin-left: 20px;
-}
-.contact .contact2{
-	margin:15px 0px 15px 0px;
-}
-.contact .address{
-	margin:15px 0px 15px 0px;
-}
-.contact .number{
-	margin: 15px 0px 15px 0px;
-}
-.contact .site{
-	margin: 15px 0px 15px 0px;
 }
 
-footer{
-	text-align: center;
-	margin-bottom: 50px;
+.box-content div{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.box-content{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin:40px 40px;
+}
+
+.design {
+    background-color:#DFD6D6;
+    height:40%;
+    width:40%;
+    border:1px solid black;
+    padding:20px;
+    margin:20px 20px;
+}
+
+.UX{
+    background-color:#DFD6D6;
+    height:40%;
+    width:40%;
+    border:1px solid black;
+    padding:20px;
+    margin:20px 20px;
+}
+.Digital-Marketing{
+    background-color:#DFD6D6;
+    height:40%;
+    width:40%;
+    border:1px solid black;
+    padding:20px;
+    margin:20px 20px;
+}
+.web-development{
+    background-color:#DFD6D6;
+    height:40%;
+    width:40%;
+    border:1px solid black;
+    padding:20px;
+    margin:20px 20px;
+}
+.iosDEV{
+    background-color:#DFD6D6;
+    height:40%;
+    width:40%;
+    border:1px solid black;
+    padding:20px;
+    margin:20px 20px;
+}
+.androidDEV{
+    background-color:#DFD6D6;
+    height:40%;
+    width:40%;
+    border:1px solid black;
+    padding:20px;
+    margin:20px 20px;
+}
+
+.---{
+    display:flex;
+    justify-content:center;
+    margin:40px 40px;
+}
+
+.bottom{
+    margin-bottom:100px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.bottom-info{
+    height:45%;
+    width:45%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+
+.bottom-info h1 {
+    font-size:30px;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+}
+
+.bottom-info p{
+    display:flex;
+    flex-wrap:wrap;   
+}
+
+.bottom-image{
+    height:45%;
+    width:45%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    margin: 40x 40x;
+}
+footer p{
+    font-size:20px;
+    display:flex;
+    justify-content:center;
 }
